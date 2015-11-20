@@ -7,7 +7,7 @@ if __name__ == "__main__":
     An example of counting sub-multisets of fixed cardinality of a given multiset using the M&Ms pocket example.
     """
 
-    msg_1 = 'Given a pocket of 30 M&Ms, divided in the 6 classical colours' \
+    msg_1 = 'Given a pocket of 10 M&Ms, divided in the 6 classical colours ' \
             '3 red, 2 orange , 1 yellow, 4 blue, 3 brown and 3 green, how many different handful of 12 ' \
             'candies can we extract?'
 
