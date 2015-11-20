@@ -1,0 +1,5 @@
+*.pyc
+*.png
+.idea
+*.npy
+*_old.py
