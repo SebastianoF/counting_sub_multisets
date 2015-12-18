@@ -8,7 +8,7 @@ if __name__ == "__main__":
     """
 
     msg_1 = 'Given a pocket of 10 M&Ms, divided in the 6 classical colours ' \
-            '3 red, 2 orange , 1 yellow, 4 blue, 3 brown and 3 green, how many different handful of 12 ' \
+            '3 red, 2 orange , 1 yellow, 4 blue, 3 brown and 3 green, how many different handful of 7 ' \
             'candies can we extract?'
 
     n_1 = 7
@@ -18,7 +18,7 @@ if __name__ == "__main__":
     list_1 = k_resolutions_upper_constraints_list(n_1, t_up1)
 
     msg_2 = 'Given a pocket of 30 M&Ms, divided in the 6 classical colours' \
-            '11 red, 9 orange , 6 yellow, 14 blue, 3 brown and 17 green, how many different handful of 7 ' \
+            '11 red, 9 orange , 6 yellow, 14 blue, 3 brown and 17 green, how many different handful of 12 ' \
             'candies can we extract?'
 
     n_2 = 12

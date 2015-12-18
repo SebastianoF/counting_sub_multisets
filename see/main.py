@@ -47,8 +47,8 @@ if __name__ == "__main__":
     # k -resolutions of n upper constraints #
     #########################################
 
-    n_upper = 15
-    t_upper = [5, 7, 8, 5, 5]  # [5, 7, 8, 5, 4, 2]
+    n_upper = 10
+    t_upper = [4, 3, 1, 5, 5]  # [5, 7, 8, 5, 4, 2]
     k_upper = len(t_upper)
 
     time_results = [0.0] * 2
