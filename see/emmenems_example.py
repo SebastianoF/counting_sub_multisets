@@ -8,7 +8,8 @@ if __name__ == "__main__":
     """
 
     msg_1 = 'Given a pocket of 10 M&Ms, divided in the 6 classical colours ' \
-            '3 red, 2 orange , 1 yellow, 4 blue, 3 brown and 3 green, how many different handful of 7 ' \
+            '3 red, 2 orange , 1 yellow, 4 blue, 3 brown and 3 green, how ' \
+            'many different handful of 7 ' \
             'candies can we extract?'
 
     n_1 = 7
@@ -38,8 +39,18 @@ if __name__ == "__main__":
     print ''
     print msg_1
     print 'Answer: ' + str(answer_1)
-    print 'Possible handfuls: ' + str(list_1) + '\n'
+    print 'Do you want to visualize them all (They are computed by brute force)?'
+    see_them = raw_input('(y/n):')
+
+    if see_them.lower() == 'y':
+        print 'Possible handfuls: ' + str(list_1) + '\n'
 
     print msg_2
-    print 'Answer: ' + str(answer_2)
-    print 'Possible handfuls: ' + str(list_2) + '\n'
+    print 'Do you want to visualize them all (They are computed by brute force)?'
+    see_them = raw_input('(y/n):')
+
+    if see_them.lower() == 'y':
+        print 'Possible handfuls: ' + str(list_2) + '\n'
+
+
+
