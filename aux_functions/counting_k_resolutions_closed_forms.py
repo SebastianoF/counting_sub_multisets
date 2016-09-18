@@ -1,4 +1,4 @@
-from utils.basic_functions import binomial, power_lists
+from aux_functions.basic_functions import binomial, power_lists
 
 
 """

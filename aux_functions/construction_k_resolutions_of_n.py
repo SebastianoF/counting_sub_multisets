@@ -3,9 +3,9 @@ Construction of all of the possible k-resolution of n:
 ------------------------------------------------------
 Following methods provide all of the possible vectors of length k whose elements are the
 integers between 1 and n.
-Every step is recursive and glue at all the possible tails, all the possible heads.
-The set of the initial head is defined as the list [[1],[2],[3] , ... ,[n]].
-Tails grow every step getting glued with all the heads.
+Every step is recursive and glues to all of the possible tails, all the possible heads.
+The set of the initial heads is defined as the list [[1],[2],[3] , ... ,[n]].
+Tails' set grows every step getting glued with all the heads.
 """
 
 

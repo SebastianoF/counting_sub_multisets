@@ -1,5 +1,5 @@
 from nose.tools import assert_equal, assert_true
-from utils.construction_k_resolutions_of_n_lower_constrained import k_resolutions_lower_constraints_list
+from aux_functions.construction_k_resolutions_of_n_lower_constrained import k_resolutions_lower_constraints_list
 
 
 def test_k_resolutions_lower_constraints_list_simple():
@@ -19,8 +19,9 @@ def test_k_resolutions_lower_constraints_list_simple_1():
 
 
 def test_k_resolutions_lower_constraints_list_simple_2():
-    ans_ground = [[1, 2, 7], [1, 3, 6], [1, 4, 5], [1, 5, 4], [1, 6, 3], [2, 2, 6], [2, 3, 5], [2, 4, 4], [2, 5, 3],
-                  [3, 2, 5], [3, 3, 4], [3, 4, 3], [4, 2, 4], [4, 3, 3], [5, 2, 3]]
+    ans_ground = [[1, 2, 7], [1, 3, 6], [1, 4, 5], [1, 5, 4], [1, 6, 3], 
+                  [2, 2, 6], [2, 3, 5], [2, 4, 4], [2, 5, 3], [3, 2, 5], 
+                  [3, 3, 4], [3, 4, 3], [4, 2, 4], [4, 3, 3], [5, 2, 3]]
     ans = k_resolutions_lower_constraints_list(10, [1, 2, 3])
 
     assert_equal(len(ans), len(ans_ground))
