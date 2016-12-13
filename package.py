@@ -14,7 +14,7 @@ info = {
                       },
         "author": "Sebastiano Ferraris",
         "dependencies": {
-                         # requirements.txt file automatically generated using pipreqs
+                         # requirements.txt file automatically generated using pipreqs.
                          "python" : "{0}/requirements.txt".format(root_dir)
                          }
         }
