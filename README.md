@@ -12,5 +12,9 @@ Code related to http://arxiv.org/abs/1511.06142 .
 
 'test' folder contains tests (with unittest nosetest).
 
+To install the libraries required to use the code in python please run 
+
+```pip install -r requirements.txt```
+
 
  Any collaboration, improvement or suggestion is welcome.
