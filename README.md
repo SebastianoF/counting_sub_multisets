@@ -1,4 +1,4 @@
-Python 2.7.5. Lib: scipy, itertools, nose, numpy, time.
+Python 2.7.5.
 
 ==========================================
 Counting sub-multisets of fixed cardinality
