@@ -2,7 +2,7 @@ import numpy as np
 from nose.tools import assert_equal, assert_true, assert_raises
 from numpy.testing import assert_array_equal
 
-from aux_functions.basic_functions import binomial, fact, power_lists
+from methods.auxiliary import binomial, fact, power_lists
 
 
 def test_binomial_with_tartaglia_triangle():

@@ -1,5 +1,5 @@
 from nose.tools import assert_equal, assert_true
-from aux_functions.construction_k_resolutions_of_n_upper_constrained import k_resolutions_upper_constraints_list
+from methods.construction_k_resolutions_of_n_upper_constrained import k_resolutions_upper_constraints_list
 
 
 def test_k_resolutions_lower_constraints_list_simple():

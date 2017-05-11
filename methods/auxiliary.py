@@ -2,11 +2,6 @@ from scipy.misc import factorial
 from itertools import chain, combinations
 
 
-"""
-Some basic combinatorial functions.
-"""
-
-
 def binomial(n, k):
     """
     A fast way to calculate binomial coefficients, thanks to Andrew Dalke.

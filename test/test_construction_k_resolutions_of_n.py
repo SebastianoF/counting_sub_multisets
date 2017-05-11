@@ -1,6 +1,6 @@
 from nose.tools import assert_equal, assert_true, assert_raises
 from numpy.testing import assert_array_equal
-from aux_functions.construction_k_resolutions_of_n import k_resolutions_list
+from methods.construction_k_resolutions_of_n import k_resolutions_list
 
 
 def test_k_resolutions_list_simple():

@@ -1,8 +1,8 @@
 """
 Construction of all of the possible k-resolution of n with lower constraints:
 ----------------------------------------------------------------------------
-Following methods provide the list of all of the k-resolutions of n with lower constraints
-defined by the list t_low = (a_1, a_2, ..., a_k)
+Following methods provide the list of all of the k-resolutions of n with lower constraints.
+Constraints are defined by the list t_low = (a_1, a_2, ..., a_k)
 """
 
 

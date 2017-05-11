@@ -1,12 +1,7 @@
-from aux_functions.basic_functions import binomial, power_lists
-
-
 """
 Closed form computations of k-resolutions with no, upper and lower constraints
--------------------------------------------------------------------------------
-Cardinality of k-resolutions are provided with the closed formula developed in the pdf document.
-They will be compared with the length of the lists provided by the previous enumerative methods.
 """
+from methods.auxiliary import binomial, power_lists
 
 
 def number_of_k_resolutions_n(n, k):

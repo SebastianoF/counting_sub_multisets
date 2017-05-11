@@ -1,8 +1,6 @@
 """
-Construction of all of the possible k-resolution of n with upper constraints:
-----------------------------------------------------------------------------
-Following methods provide the list of all of the k-resolutions of n with upper constraints
-defined by the list t_up = (a_1, a_2, ..., a_k)
+Following methods provide the list of all of the k-resolutions of n with upper constraints.
+Constraints are defined by the list t_up = (a_1, a_2, ..., a_k).
 """
 
 
