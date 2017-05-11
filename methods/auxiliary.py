@@ -4,7 +4,7 @@ from itertools import chain, combinations
 
 def binomial(n, k):
     """
-    A fast way to calculate binomial coefficients, thanks to Andrew Dalke.
+    Binomial coefficients, thanks to Andrew Dalke.
     """
     if 0 <= k <= n:
         n_tok = 1

@@ -1,5 +1,5 @@
-from aux_functions.construction_k_resolutions_of_n_upper_constrained import k_resolutions_upper_constraints_list
-from aux_functions.counting_k_resolutions_closed_forms import number_of_k_resolutions_upper_constraints
+from methods.construction_k_resolutions_of_n_upper_constrained import k_resolutions_upper_constraints_list
+from methods.counting_k_resolutions_closed_forms import number_of_k_resolutions_upper_constraints
 
 
 if __name__ == "__main__":
@@ -20,8 +20,8 @@ if __name__ == "__main__":
     list_1 = k_resolutions_upper_constraints_list(n_1, t_up1)
 
     msg_2 = 'Given a pocket of 30 M&Ms, divided in the 6 classical colours' \
-            '11 red, 9 orange , 6 yellow, 14 blue, 3 brown and 17 green, how many \
-            different handful of 12 candies can we extract?'
+            '11 red, 9 orange , 6 yellow, 14 blue, 3 brown and 17 green, how many '\
+            'different handful of 12 candies can we extract?'
 
     n_2 = 12
     t_up2 = [11, 9, 6, 14, 3, 17]
