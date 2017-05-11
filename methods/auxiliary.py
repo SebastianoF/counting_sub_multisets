@@ -9,7 +9,7 @@ def binomial(n, k):
     if 0 <= k <= n:
         n_tok = 1
         k_tok = 1
-        for t in xrange(1, min(k, n - k) + 1):
+        for t in range(1, min(k, n - k) + 1):
             n_tok *= n
             k_tok *= t
             n -= 1

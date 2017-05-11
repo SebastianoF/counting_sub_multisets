@@ -5,7 +5,7 @@ from methods.auxiliary import binomial, power_lists
 
 
 def number_of_k_resolutions_n(n, k):
-    """
+    r"""
     R_{k}^{n}
     k resolution of n with no constraints, starting from 0
     :param n,k: integer indexes
@@ -25,7 +25,7 @@ def number_of_k_resolutions_upper_constraints_wrong(n, t_up):
 
 
 def number_of_k_resolutions_lower_constraints(n, low_t):
-    """
+    r"""
     $R_{(a_1,a_2, \dots , a_k )^{\downarrow} }^{n}$
     k resolutions with lower constraint
     :param n:
@@ -36,8 +36,7 @@ def number_of_k_resolutions_lower_constraints(n, low_t):
 
 
 def number_of_k_resolutions_upper_constraints(n, up_t, verbose=False):
-    """
-    Fatti non foste a computare come bruti.
+    r"""
     $R_{(a_1,a_2, \dots , a_k )^{\uparrow} }^{n}$
     :param n: positive integer
     :param up_t: vector of non-negative integers $(a_1,a_2, \dots , a_k)$ representing upper constraints
@@ -54,9 +53,9 @@ def number_of_k_resolutions_upper_constraints(n, up_t, verbose=False):
         s += ((-1)**(len(l))) * binomial(n + k - 1 - len(l) - sum([up_t[i - 1] for i in l]), k - 1)
 
     if verbose:
-        print p
-        print 'emmenems of each color in the pocket : ' + str(up_t)
-        print 'emmenems in the hand : ' + str(n)
-        print 'numbers of handfuls : ' + str(s)
+        print(p)
+        print('emmenems of each color in the pocket : ' + str(up_t))
+        print('emmenems in the hand : ' + str(n))
+        print('numbers of handfuls : ' + str(s))
 
     return s

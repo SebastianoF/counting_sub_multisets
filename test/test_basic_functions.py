@@ -47,9 +47,9 @@ def test_power_set_simple(verbose=True):
     ans = power_lists(s1)
 
     if verbose:
-        print ''
-        print 'Power set of ' + str(s1) + ':'
-        print ans
+        print('')
+        print('Power set of ' + str(s1) + ':')
+        print(ans)
 
     assert_equal(len(ans), len(ans_ground))
     for i in range(len(ans)):

@@ -27,7 +27,7 @@ def all_vectors_upper_constraints(n, k, t_up):
         ans = recurs_upper_constraints([[]], heads_starters, k, t_up)
         return ans
     else:
-        print 'input : (n, k, t), list t must have dim = k'
+        print('input : (n, k, t), list t must have dim = k')
 
 
 def k_resolutions_upper_constraints_list(n, t_up):
