@@ -1,5 +1,6 @@
 *.pyc
 .idea
+.vscode
 *.npy
 *_old.py
 .DS_Store

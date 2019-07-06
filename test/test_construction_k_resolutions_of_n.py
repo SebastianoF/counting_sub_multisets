@@ -1,6 +1,6 @@
-from nose.tools import assert_equal, assert_true, assert_raises
-from numpy.testing import assert_array_equal
-from methods.construction_k_resolutions_of_n import k_resolutions_list
+from numpy.testing import assert_array_equal, assert_equal, assert_raises
+
+from k_resolutions.construction_k_resolutions_of_n import k_resolutions_list
 
 
 def test_k_resolutions_list_simple():
@@ -11,8 +11,8 @@ def test_k_resolutions_list_simple():
     ans = k_resolutions_list(4, 3)
 
     assert_equal(len(ans), len(ans_ground))
-    for i in range(len(ans)):
-        assert_true(ans[i] in ans_ground)
+    for a in ans:
+        assert a in ans_ground
 
 
 def test_k_resolutions_list_extreme():

@@ -1,8 +1,7 @@
 import numpy as np
-from nose.tools import assert_equal, assert_true, assert_raises
-from numpy.testing import assert_array_equal
+from numpy.testing import assert_array_equal, assert_equal, assert_raises
 
-from methods.auxiliary import binomial, fact, power_lists
+from k_resolutions.auxiliary import binomial, fact, power_lists
 
 
 def test_binomial_with_tartaglia_triangle():
@@ -52,5 +51,5 @@ def test_power_set_simple(verbose=True):
         print(ans)
 
     assert_equal(len(ans), len(ans_ground))
-    for i in range(len(ans)):
-        assert_true(ans[i] in ans_ground)
+    for a in ans:
+        assert a in ans_ground

@@ -1,5 +1,6 @@
-from nose.tools import assert_equal, assert_true
-from methods.construction_k_resolutions_of_n_lower_constrained import k_resolutions_lower_constraints_list
+from numpy.testing import assert_equal
+
+from k_resolutions.construction_k_resolutions_of_n_lower_constrained import k_resolutions_lower_constraints_list
 
 
 def test_k_resolutions_lower_constraints_list_simple():
@@ -7,8 +8,8 @@ def test_k_resolutions_lower_constraints_list_simple():
     ans = k_resolutions_lower_constraints_list(4, [1, 2])
 
     assert_equal(len(ans), len(ans_ground))
-    for i in range(len(ans)):
-        assert_true(ans[i] in ans_ground)
+    for a in ans:
+        assert a in ans_ground
 
 
 def test_k_resolutions_lower_constraints_list_simple_1():
@@ -25,8 +26,8 @@ def test_k_resolutions_lower_constraints_list_simple_2():
     ans = k_resolutions_lower_constraints_list(10, [1, 2, 3])
 
     assert_equal(len(ans), len(ans_ground))
-    for i in range(len(ans)):
-        assert_true(ans[i] in ans_ground)
+    for a in ans:
+        assert a in ans_ground
 
 
 def test_k_resolutions_lower_constraints_list_simple_extreme():

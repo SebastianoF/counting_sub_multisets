@@ -27,9 +27,9 @@ To install the required libraries, please install [pip](https://pypi.python.org/
 * `pip install -r requirements.txt`
 
 ### Testing
-Unit testing with [nosetest](http://pythontesting.net/framework/nose/nose-introduction/):
+Unit testing with [pytest](https://docs.pytest.org/en/latest/):
 
-* `nosetests`
+* `pytest .`
 
 ### License
 Counting_sub_multisets is licensed under the terms of the

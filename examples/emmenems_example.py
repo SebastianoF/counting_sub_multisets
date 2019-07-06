@@ -1,5 +1,5 @@
-from methods.construction_k_resolutions_of_n_upper_constrained import k_resolutions_upper_constraints_list
-from methods.counting_k_resolutions_closed_forms import number_of_k_resolutions_upper_constraints
+from k_resolutions.construction_k_resolutions_of_n_upper_constrained import k_resolutions_upper_constraints_list
+from k_resolutions.counting_k_resolutions_closed_forms import number_of_k_resolutions_upper_constraints
 
 
 if __name__ == "__main__":
